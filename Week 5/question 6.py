@@ -1,0 +1,5 @@
+num = input("Enter a large number: ")
+result = list(map(int,str(num)))
+print (result)
+adding =sum(result)
+print(adding)
